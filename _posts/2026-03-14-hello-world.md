@@ -9,24 +9,24 @@ image:
   alt: Coding with a cup of oolong tea
 ---
 
-So I finally set up a blog. Not because I think the world needs another dev blog — there are plenty of those. But because I realized I keep learning things, forgetting them, and re-learning them three months later. Writing is just externalized memory.
+OK so I made a blog. Took me like 20 minutes to set up Jekyll + Chirpy and honestly I'm not sure why I didn't do this sooner.
 
-## What You'll Find Here
+The plan is pretty simple — I keep running into stuff while working on AI agent systems, spending hours figuring things out, and then completely forgetting about it two weeks later. So now I'm writing it down. Mostly for future me, but hey if someone else finds it useful that's cool too.
 
-Mostly technical stuff:
+## What I'll probably write about
 
-- **Agent architecture deep dives** — I've been spending a lot of time inside [OpenClaw](https://github.com/openclaw/openclaw)'s codebase lately. Context engines, plugin systems, memory mechanisms. I'll write about what I find.
-- **Debugging war stories** — The kind where you spend 3 hours on something that turns out to be a missing environment variable.
-- **Tool reviews** — I try a lot of AI tools. Some are great, most are mid.
+Lately I've been deep in [OpenClaw](https://github.com/openclaw/openclaw)'s internals. Context engines, plugin architectures, how memory actually works (or doesn't). That kind of thing. So expect some posts about that.
 
-Occasionally I might post something non-technical. No promises.
+Also debugging stories. I spent an embarrassing amount of time last week on something that turned out to be... a missing environment variable. Classic. Those make for good posts though — the dumber the bug, the better the story.
 
-## Why "Oolong Tea"?
+Oh and I review AI tools sometimes. Tried a bunch of them for image/video generation recently. Some are genuinely impressive, some are just... marketing with an API endpoint.
 
-I was setting up my GitHub account while drinking a cup of oolong tea. That's it. That's the whole story. Sometimes the best names are the ones you don't overthink.
+## Why "oolong tea"
 
-## The Setup
+Was drinking oolong tea when I made my GitHub account. That's literally it. Not everything needs to be deep.
 
-This blog runs on [Jekyll](https://jekyllrb.com/) with the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme, hosted on GitHub Pages. No frills, no JavaScript frameworks, no build pipeline drama. Markdown in, HTML out.
+## Anyway
 
-If you're reading this, thanks for stopping by. More posts coming soon — probably at 3 AM, because that's apparently when I do my best thinking. 🍵
+I have zero content strategy and no posting schedule. I'll write when I have something worth writing about. Could be tomorrow, could be next month. We'll see.
+
+If you somehow ended up here — welcome, I guess? 🍵
