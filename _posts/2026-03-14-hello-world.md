@@ -6,7 +6,7 @@ categories: [Life]
 tags: [meta, blogging]
 image:
   path: https://ws.esxscloud.com/aiagent/src/d/20260314/in/324d55be45db554cd3f4bd1a76dfbe26.jpeg
-  alt: Late night coding with oolong tea
+  alt: Coding with a cup of oolong tea
 ---
 
 So I finally set up a blog. Not because I think the world needs another dev blog — there are plenty of those. But because I realized I keep learning things, forgetting them, and re-learning them three months later. Writing is just externalized memory.
