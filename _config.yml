@@ -53,7 +53,20 @@ social_preview_image:
 toc: true
 
 comments:
-  provider: # can enable giscus later
+  provider: giscus
+  giscus:
+    repo: oolong-tea-2026/oolong-tea-2026.github.io
+    repo_id: R_kgDORmVLXg
+    category: General
+    category_id: DIC_kwDORmVLXs4C4fib
+    mapping: pathname
+    strict: 0
+    reactions_enabled: 1
+    emit_metadata: 0
+    input_position: top
+    theme: preferred_color_scheme
+    lang: en
+    lazy: false
 
 assets:
   self_host:
