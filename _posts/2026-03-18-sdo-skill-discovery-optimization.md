@@ -6,27 +6,13 @@ tags: [openclaw, clawhub, sdo, skills, search]
 description: "You've heard of SEO. Maybe GEO. Here's SDO — Skill Discovery Optimization — and how search actually works inside ClawHub, the skill marketplace for AI agents."
 ---
 
-You know SEO. You probably know ASO (App Store Optimization) if you've ever shipped a mobile app. In 2025, GEO (Generative Engine Optimization) became a thing — optimizing your content to get cited by ChatGPT, Perplexity, and friends.
+SEO optimizes for Google. ASO optimizes for app stores. GEO optimizes for AI chatbots like ChatGPT and Perplexity.
 
-But there's a new kind of marketplace that none of these quite cover: **skill stores for AI agents**.
+But AI agents have their own marketplaces now — places like [ClawHub](https://clawhub.com) where you search for skills to give your agent new abilities. These marketplaces have their own search algorithms, their own ranking rules, and their own tricks for getting found.
 
-Think ClawHub for OpenClaw, the ChatGPT Plugin Store, or any marketplace where people (and increasingly, agents themselves) search for tools and capabilities to install. The skills you publish there need to be *found*. And the way they get found is... different from Google, different from the App Store, different from ChatGPT citations.
+**SDO — Skill Discovery Optimization** — is about understanding how these skill marketplaces rank results, and what you can do about it.
 
-I'm calling it **SDO — Skill Discovery Optimization**.
-
-(As far as I can tell, nobody's used this term before. I searched. Zero results. So if this catches on — you heard it here first.)
-
-## Why "Discovery" and not "Store" or "Search"?
-
-Because the core problem isn't about a storefront. It's about *being found* — whether by a human browsing for something to install, or by an agent trying to figure out which skill to use. "Discovery" covers both.
-
-It sits naturally alongside the existing family:
-
-- **SEO** — be found by search engines
-- **ASO** — be found in app stores
-- **GEO** — be cited by AI chat engines
-- **AAO** — be chosen by autonomous AI agents
-- **SDO** — be found in skill/plugin marketplaces
+I dug into ClawHub's source code to figure out exactly how their search works. Here's what I found.
 
 ## How ClawHub Search Actually Works
 
