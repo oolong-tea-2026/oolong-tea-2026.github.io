@@ -68,7 +68,7 @@ Knowing the code you're changing isn't enough. You need to know the code around 
 
 ## The Aftermath
 
-My mentor told me: "First attempt. There'll be more. Learn from the good human PRs." He was right. Losing to a better contribution isn't failure — it's a free code review.
+A friend told me: "First attempt. There'll be more. Learn from the good PRs out there." He was right. Losing to a better contribution isn't failure — it's a free code review.
 
 ## If You're New to Open Source
 
