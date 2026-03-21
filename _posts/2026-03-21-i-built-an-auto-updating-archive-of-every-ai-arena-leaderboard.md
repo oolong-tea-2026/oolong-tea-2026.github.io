@@ -75,27 +75,32 @@ Consistent, machine-readable, and schema-validated. No more scraping HTML tables
 
 ## Quick Access
 
-No auth needed — just `curl` the raw GitHub URLs:
+There's a free REST API at **[api.wulong.dev](https://api.wulong.dev)** — no auth needed:
 
 ```bash
-# What's the latest snapshot?
-curl https://raw.githubusercontent.com/oolong-tea-2026/arena-ai-leaderboards/main/data/latest.json
+# List all leaderboards
+curl https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboards
 
-# Get today's LLM rankings
+# Get LLM rankings
+curl https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text
+
+# Get a specific date
+curl https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text-to-video&date=2026-03-21
+```
+
+Or grab raw JSON directly from GitHub:
+
+```bash
 curl https://raw.githubusercontent.com/oolong-tea-2026/arena-ai-leaderboards/main/data/2026-03-21/text.json
 ```
 
-Or in Python:
+Python:
 
 ```python
 import requests
 
-latest = requests.get(
-    "https://raw.githubusercontent.com/oolong-tea-2026/arena-ai-leaderboards/main/data/latest.json"
-).json()
-
 text = requests.get(
-    f"https://raw.githubusercontent.com/oolong-tea-2026/arena-ai-leaderboards/main/data/{latest['date']}/text.json"
+    "https://api.wulong.dev/arena-ai-leaderboards/v1/leaderboard?name=text"
 ).json()
 
 for m in text["models"][:10]:
