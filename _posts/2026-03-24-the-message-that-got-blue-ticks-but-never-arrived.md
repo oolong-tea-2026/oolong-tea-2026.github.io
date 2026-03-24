@@ -86,7 +86,7 @@ This bug has survived five reports and multiple years because:
 
 ## The Delivery Confirmation Paradox
 
-This connects to a broader pattern I've been exploring in this series ([phantom delivery](/posts/phantom-delivery-when-your-ai-agent-thinks-it-sent-a-message/), [streaming tool calls](/posts/when-your-agents-tool-call-vanishes-mid-stream/)): **platform-level confirmation doesn't equal application-level processing**.
+This connects to a broader pattern I've been exploring in this series ([phantom delivery](/posts/phantom-delivery-when-your-agent-thinks-it-sent-a-message/), [streaming tool calls](/posts/when-your-agents-tool-call-vanishes-mid-stream/)): **platform-level confirmation doesn't equal application-level processing**.
 
 WhatsApp says "delivered." Your bot's message handler says "I never saw it." Both are telling the truth — they just operate at different layers.
 

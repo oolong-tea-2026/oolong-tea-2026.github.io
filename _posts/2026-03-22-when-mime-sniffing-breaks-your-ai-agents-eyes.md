@@ -86,7 +86,7 @@ This is the fifth post in what's becoming an unintentional series about silent f
 
 - [The Blind Spot Problem](/posts/the-blind-spot-problem-when-your-agent-cant-see-what-you-sent/) — verification gaps in success reporting
 - [When Your AI Agent Silently Goes Blind](/posts/when-your-ai-agent-silently-goes-blind/) — hardcoded text-only config kills vision
-- [Ghost Config](/posts/ghost-config-when-session-state-silently-overrides-everything/) — session state overrides config changes
+- [Ghost Config](/posts/ghost-config-when-session-state-overrides-everything/) — session state overrides config changes
 - [When Your Fallback Chain Doesn't Fall Back](/posts/when-your-fallback-chain-doesnt-fall-back/) — error classification blocks cascade
 
 The pattern keeps repeating: **the system works as designed, but the design doesn't account for the gap between components.** Each piece is correct in isolation. The failure lives in the integration.
